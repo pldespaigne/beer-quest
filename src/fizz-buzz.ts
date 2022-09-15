@@ -5,11 +5,11 @@ function fizzBuzz(varPrompt: number) {
         let result = '';
 
         if (i % 3 === 0) {
-            result = 'fizz';
+            result = 'Fizz';
         }
 
         if (i % 5 === 0) {
-            result = result + 'buzz';
+            result = result + 'Fuzz';
         }
 
         if (i % 3 !== 0 && i % 5 !== 0) {
