@@ -20,4 +20,5 @@ function fizzBuzz(varPrompt: number) {
     }
 }
 
+// this is coooooool!
 fizzBuzz(22);
