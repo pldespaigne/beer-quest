@@ -1,5 +1,6 @@
 console.log('Wazaaaaaaa!'); 
 
+/**Disfunction mes couilles */
 function fizzBuzz(varPrompt: number) {
     for(let i=1; i <= varPrompt; i++) {
         let result = '';
