@@ -5,7 +5,7 @@ import { TerminalRenderer } from '../renderer';
 
 export type GameCell = 0 | 1 | 2;
 export type GamePosition = 0 | 1 | 2;
-export type GamePlayer = 1 | 1;
+export type GamePlayer = 1 | 2;
 
 export interface GameState {
   cells: GameCell[][];
