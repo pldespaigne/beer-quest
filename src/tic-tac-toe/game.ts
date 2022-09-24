@@ -73,26 +73,18 @@ export function ticTacToe(
       process.exit();
     } else {
       if (e.name === 'up') {
-        // pos.y = (pos.y + 2) % 3;
         onMoveUp();
       }
       if (e.name === 'down') {
-        // pos.y = (pos.y + 1) % 3;
         onMoveDown();
       }
       if (e.name === 'right') {
-        // pos.x = (pos.x + 1) % 3;
         onMoveRight();
       }
       if (e.name === 'left') {
-        // pos.x = (pos.x + 2) % 3;
         onMoveLeft();
       }
       if (e.name === 'space') {
-        // const cell = state[pos.y][pos.x];
-        // if (cell === 1 || cell === 2) return;
-        // state[pos.y][pos.x] = current;
-        // current = current === 1 ? 2 : 1;
         onPlay();
       }
     }
